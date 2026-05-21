@@ -22,7 +22,8 @@ async def show_results(message: Message, state: FSMContext) -> None:
     elapsed = int(time.time()) - start_time
     total_questions = 20
 
-    iq_score, iq_label, iq_desc = calculate_iq(score, elapsed)
+    max_points: int = data.get("max_points", 130)
+    iq_score, iq_label, iq_desc = calculate_iq(score, max_points, elapsed)
     percentile = iq_percentile(iq_score)
 
     await save_result(
