@@ -21,3 +21,7 @@
 - [x] [SONNET] handlers/results.py | Bajarildi: 2026-05-21 16:30
 - [x] [SONNET] main.py | Bajarildi: 2026-05-21 16:35
 - [x] [SONNET] render.yaml | Bajarildi: 2026-05-21 16:40
+- [x] [HAIKU] handlers/help.py — /help va /test komandasi | Bajarildi: 2026-05-21 17:00
+- [x] [SONNET] handlers/mystats.py — /mystats foydalanuvchi tarixi | Bajarildi: 2026-05-21 17:05
+- [x] [SONNET] middlewares.py — ThrottleMiddleware + ErrorMiddleware | Bajarildi: 2026-05-21 17:10
+- [x] [SONNET] main.py — middleware + set_my_commands + yangi routerlar | Bajarildi: 2026-05-21 17:15
